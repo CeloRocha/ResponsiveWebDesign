@@ -112,3 +112,9 @@ p{
     text-decoration:underline;
     color: black;
 }
+
+@media (max-width: 500px){
+    nav{
+        position: relative;
+    }
+}
