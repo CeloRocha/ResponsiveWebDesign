@@ -6,10 +6,42 @@ body{
     margin: auto;
 }
 
+nav{
+    width: 100%;
+    position: fixed;
+    background: #FFF600;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(75px, 100px));
+    grid-template-rows: repeat(auto-fit, 20px);
+    row-gap: 15px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 1px 4px 1px black, 0px 3px 8px 3px hsl(50, 100%, 25%);
+    z-index: 2;
+}
+
+nav > a{
+    padding: 2px 15px;
+    background: hsl(50, 100%, 40%);
+    text-decoration: none;
+    color: black;
+    font-family: "Zen Kurenaido", Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15%;
+    transition: 0.3s ease;
+    box-shadow: 0px 0px 4px 1px black, 0px 0px 8px 3px hsl(50, 100%, 25%) ;
+}
+
+nav > a:hover{
+    box-shadow: 0px 0px 4px 1px white, 0px 0px 8px 3px hsl(50, 100%, 25%)
+}
+
 #main{
     width: 65vw;
     margin: auto;
-
+    padding-top: 50px;
     font-family: "Zen Kurenaido", Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -24,13 +56,12 @@ body{
     margin: auto;
     background: #FFF600;
     border-radius: 5%;
-    padding-bottom: 20px;
     box-shadow: 5px 5px 10px 5px black, 8px 8px 15px 8px hsl(50, 100%, 25%);
 }
 
 #image{
     margin: auto;
-    padding: 40px;
+    padding: 25px;
     width: 90%;
     height: auto;
     max-width: 720px;
@@ -45,6 +76,7 @@ figure{
 
 #img-caption{
     text-align: center;
+    transform: translateY(-25px);
 }
 
 hr{
@@ -52,6 +84,31 @@ hr{
     margin-top: 40px;
 }
 
+#tribute-info{
+    margin: auto;
+    width: 70%;
+}
 p{
     text-align: justify;
+}
+
+.divide{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 50px;
+    row-gap: 0px;
+    justify-items: left;
+
+}
+
+.center{
+    display: grid;
+    justify-items: center;
+    font-size: 1.5em;
+}
+
+.center > a{
+    text-decoration:underline;
+    color: black;
 }
