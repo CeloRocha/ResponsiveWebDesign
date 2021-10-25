@@ -1,3 +1,57 @@
+
+
 body{
-    background-color: bisque;
+    background: #FFF67C;
+    color: #2A2916;
+    margin: auto;
+}
+
+#main{
+    width: 65vw;
+    margin: auto;
+
+    font-family: "Zen Kurenaido", Georgia, 'Times New Roman', Times, serif;
+}
+
+#title{
+    text-align: center;
+    font-family: "Zen Kurenaido", Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px hsl(50, 100%, 25%);
+}
+
+#img-div{
+    width: 100%;
+    margin: auto;
+    background: #FFF600;
+    border-radius: 5%;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 10px 5px black, 8px 8px 15px 8px hsl(50, 100%, 25%);
+}
+
+#image{
+    margin: auto;
+    padding: 40px;
+    width: 90%;
+    height: auto;
+    max-width: 720px;
+    border-radius: 25%;
+    display: block;
+}
+
+figure{
+    margin: auto;
+    width: 100%;
+}
+
+#img-caption{
+    text-align: center;
+}
+
+hr{
+    border: 2px solid #550;
+    margin-top: 40px;
+}
+
+p{
+    text-align: justify;
 }
