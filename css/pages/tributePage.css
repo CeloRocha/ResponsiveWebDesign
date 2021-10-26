@@ -9,7 +9,7 @@ body{
 nav{
     width: 100%;
     position: fixed;
-    background: #FFF600;
+    background: #bbb456;
     height: auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(75px, 100px));
@@ -25,7 +25,7 @@ nav{
 
 nav > a{
     padding: 2px 15px;
-    background: hsl(50, 100%, 40%);
+    background: #FFF67C;
     text-decoration: none;
     color: black;
     font-family: "Zen Kurenaido", Georgia, 'Times New Roman', Times, serif;
@@ -54,7 +54,7 @@ nav > a:hover{
 #img-div{
     width: 100%;
     margin: auto;
-    background: #FFF600;
+    background: #bbb456;
     border-radius: 5%;
     box-shadow: 5px 5px 10px 5px black, 8px 8px 15px 8px hsl(50, 100%, 25%);
 }
@@ -88,10 +88,17 @@ hr{
     margin: auto;
     width: 70%;
 }
-p{
+p, li{
     text-align: justify;
+    font-size: 1.3em;
+}
+h2{
+    font-size: 1.8em;
 }
 
+h1{
+    font-size: 2.4em;
+}
 .divide{
     display: grid;
     width: 100%;
@@ -106,6 +113,8 @@ p{
     display: grid;
     justify-items: center;
     font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .center > a{
